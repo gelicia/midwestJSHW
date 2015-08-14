@@ -13,7 +13,6 @@ var colors = [red, orange, yellow, green, blue, violet];
 // For each color
 for (var i = 0; i < colors.length; i++) {
 	var animation = npx.newAnimation(1, 1);
-	var offset = 1;
 
 	//create a pattern starting with the color of the index
 	var pattern = colors.slice(i).concat(colors.slice(0, i));
